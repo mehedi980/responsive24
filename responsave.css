@@ -1,0 +1,37 @@
+@media (max-width:1520px){
+    .fixed_wight{
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        padding: 10px 20px;
+        box-sizing: border-box;
+    }
+    
+}
+@media (max-width:1024px){
+    .header-right{
+        width: 100%;
+        text-align: center;
+    }
+    .header-right ul{
+        width: 100%;
+        text-align: center;
+    }
+    .header-left{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width:768px){
+    .header-right ul li a{
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        padding: 0 18px;
+        line-height: 74px;
+        border-right: none;
+        transition: .4s;
+    }
+}
